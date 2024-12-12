@@ -177,8 +177,7 @@ button {
     background-color: #0B0319;
     display: flex;
     align-items: center;    
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-evenly;
 }
 
 .gradient-rect, .rectangle {

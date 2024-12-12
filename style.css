@@ -1,0 +1,645 @@
+body {
+    background-color: #0B0319;
+    overflow-x: hidden;
+}
+
+.header p {
+    font-family: "Inter";
+    color: white;
+    font-size: 14px;
+    height: 16px;
+}
+
+.header {
+    display: flex;
+    gap: 200px;
+    box-shadow: 0px -10px 15px rgba(255, 255, 255, 0.5);
+}
+
+.gradient-box {
+    background: rgba(217, 217, 217, 0.1);
+    backdrop-filter: blur(20px);
+    height: 630px;
+    width: 1500px;
+    margin-top: 10px;
+    border-top-left-radius: 17.9px;
+    border-top-right-radius: 17.9px;
+    border: 1px  white;
+    box-shadow: -10px -10px 15px rgba(217, 217, 217, 0.1);
+}
+
+.right-box {
+    background: linear-gradient(90deg,#DF00BC 0%,#0CFADF 100%);
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.head p {
+    color: white;
+}
+
+h1 {
+    font-family: "Josefin Sans";
+    color: white;
+    font-size: 72.32px;
+    white-space: nowrap;
+}
+
+h2 {
+    font-family: "Josefin Sans";
+    font-size: 40px;
+    background: linear-gradient(90deg,#0CFADF,#DF00BC);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.big-text p {
+    font-family: "Poppins";
+    font-size: 17px;
+}
+
+.big-text {
+    margin-left: 150px;
+    margin-top: 70px;
+}
+
+button {
+    background: linear-gradient(90deg,#0CFADF,#DF00BC);
+    font-family: "Poppins";
+    color: white;
+    border-radius: 36.52px;
+    height: 43px;
+    width: 117px;
+    border: none;
+    margin-top: 20px;
+}
+
+.right-image img {
+    height: 600px;
+    width: 900px;
+}
+
+.right {
+    position: relative;
+}
+
+.flex-cont {
+    display: flex;
+}
+
+.ellipse {
+    border-radius: 50%;
+    background: linear-gradient(90deg,#DF00BC,#0CFADF);
+    width: 546px;
+    height: 420px;
+    position: absolute;
+    top: 100px;
+    right: 220px;
+    z-index: 0;
+}
+
+.right-image {
+    position: absolute;
+    left: 50%;
+    z-index: 3;
+    transform: translateX(-150%);
+    width: 50%;
+    top: 0;
+}
+
+.img1 img {
+    position: relative;
+    height: 286px;
+    width: 261px;
+    border-radius: 35.8px;
+    z-index: 1;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.img1-border {
+    position: absolute;
+    background: linear-gradient(180deg,#2AA9DF,#DF00BC);
+    height: 296px;
+    width: 271px;
+    z-index: 0;
+    border-radius: 35.8px;
+}
+
+.img2 img {
+    position: relative;
+    height: 222px;
+    width: 200px;
+    border-radius: 35.8px;
+    z-index: 1;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+
+.img2-border {
+    position: absolute;
+    background: linear-gradient(180deg,#2AA9DF,#DF00BC);
+    height: 232px;
+    width: 210px;
+    z-index: 0;
+    border-radius: 35.8px;
+}
+
+.img3 img {
+    position: relative;
+    height: 286px;
+    width: 261px;
+    z-index: 0;
+    border-radius: 35.8px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.img3-border {
+    position: absolute;
+    background: linear-gradient(180deg,#2AA9DF,#DF00BC);
+    height: 296px;
+    width: 271px;
+    z-index: 0;
+    border-radius: 35.8px;
+}
+
+.three-comp {
+    background-color: #0B0319;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    gap: 50px;
+}
+
+.gradient-rect, .rectangle {
+    height: 210px;
+}
+
+.img1 p, .img2 p, .img3 p {
+    color: white;
+    font-size: 20px;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.img2 p {
+    margin-top: -40px;
+}
+
+.meta-text {
+    font-size: 40px;
+    color: white;
+    font-family: "Josefin Sans";
+}
+
+.images3 {
+    height: 287px;
+    width: 327px;
+    margin-right: 200px;
+}
+
+.metaverse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meta-text .grad {
+    background: linear-gradient(90deg,#0CFADF,#DF00BC);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.para {
+    color: white;
+    font-size: 17.18px;
+    font-family: "Poppins";
+}
+
+.text-box {
+    height: 115px;
+    width: 487px;
+}
+
+.reality-text .grad {
+    background: linear-gradient(90deg,#0CFADF,#747FCD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 50px;
+}
+
+.reality-text {
+    color: white;
+    font-family: "Josefin Sans";
+    font-size: 40px;
+}
+
+.reality-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-kid {
+    border-top-left-radius: 143.2px;
+    opacity: 35%;
+    z-index: -10;
+}
+
+.subscribe-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-box {
+    height: 286px;
+    width: 716px;
+    position: relative;
+    padding: 20px;
+    border-radius: 35.8px;
+    color: white;
+    z-index: 1;
+}
+
+.subscribe-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, #2AA9DF, #DF00BC);
+    border-radius: 35.8px;
+    z-index: -1;
+    padding: 4px; /* Width of the gradient border */
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out; 
+    mask-composite: exclude;
+}
+
+.subscribe-box p {
+    padding-top: 10px;
+    color: white;
+    font-family: "Josefin Sans";
+    font-size: 25px;
+    z-index: 1;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.sub-text {
+    height: 87px;
+    width: 531px;
+    position: absolute;
+}
+
+.sub-text p {
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    color: white;
+    position: relative;
+    left: 15%;
+}
+
+.btn {
+    position: relative;
+    width: 430px;
+    top: 45%;
+    left: 20%;
+    background: linear-gradient(180deg,#2AA9DF,#DF00BC) border-box;  
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.options p {
+    font-size: 17.9px;
+    font-family: "Josefin Sans";
+    color: white;
+}
+
+.app .main {
+    font-size: 28.64px;
+    color: white;
+    font-family: "Josefin Sans";
+}
+
+.app p {
+    font-family: "Poppins";
+    font-size: 15.75px;
+    color: white;
+}
+
+.para-box {
+    height: 223px;
+    width: 559px;
+    position: relative;;
+}
+
+.app {
+    text-align: center;
+    position: absolute;
+    left: 470px;
+    margin-top: 80px;
+}
+
+.download-app {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: -80px;
+}
+
+footer {
+    font-family: "Josefin Sans";
+    font-size: 18px;
+    color: white;
+    display: flex;
+}
+
+.flex-cont1 {
+    display: flex;
+    margin-top: 500px;
+    margin-left: 150px;
+    gap: 100px;
+}
+
+
+footer img {
+    height: 20px;
+    width: 20px;
+    margin-top: 510px;
+    margin-left: 10px;
+}
+
+.button-play {
+    display: flex;
+    align-items: center;
+}
+
+.play {
+    margin-left: 20px;
+    margin-top: 30px;   
+}
+
+.ellipse {
+    box-shadow: 0 0 50px 30px rgba(223,0,188,0.5);
+}
+
+.grad-rect {
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3), 0 0 40px rgba(255, 255, 255, 0.3);
+    height: 586px;
+    width: 1000px;
+    background: linear-gradient(-90deg,#2AA9DF,#DF00BC) border-box;
+    z-index: -2;
+    position: absolute;
+    opacity: 0.3;
+    backdrop-filter: blur(15px);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 80px);
+    grid-template-rows: repeat(6, 80px);
+    margin-left: 300px;
+    margin-top: 50px;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .grid-item {
+    background-color: transparent;
+    border: 0.72px solid rgba(244, 134, 240, 0.25);
+    height: 80px;
+    width: 80px;
+    position: relative;
+  }
+
+  .grad-rect {
+    width: 700px;
+    height: 586px;
+    background-color: linear-gradient(-90deg,#2AA9DF,#DF00BC);
+    -webkit-mask-image: radial-gradient(circle, transparent, linear-gradient(-90deg,#2AA9DF,#DF00BC));
+    mask-image: radial-gradient(circle, transparent, linear-gradient(-90deg,#2AA9DF,#DF00BC));
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    margin-left: 100px;
+    position: absolute;
+    filter: blur(100px);
+    z-index: 1;
+  }
+
+  .right-image {
+    position: relative;
+}
+
+.reality-img {
+    position: relative; /* Ensure child elements can use z-index */
+}
+
+.kid {
+    position: relative;
+    z-index: 2; /* Place VR2 in front */
+}
+
+.bg-kid {
+    position: absolute;
+    z-index: 1;
+    top: 35px;
+    left: 250px;
+    box-shadow: -10px 10px 15px rgba(68, 160, 236, 0.5);
+}
+
+@media (max-width: 1000px)
+{
+    .head {
+        display: flex;
+        justify-content: space-between;
+        gap: 0px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px
+    }
+
+    .big-text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+
+    .metaverse {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .reality-page {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .kid {
+        margin-right: 130px;
+    }
+
+    .app {
+        left: 200px;
+    }
+
+    .insta {
+        white-space: nowrap;
+    }
+
+    .flex-cont1 {
+        gap: 50px
+    }
+
+    .VR {
+        display: none;
+    }
+
+    .header {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: flex-start;
+    }
+
+    .head p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .gradient-box {
+        width: 100%;
+    }
+    .right-image {
+        margin-left: 0;
+    }
+    
+}
+
+@media (max-width: 700px)
+{
+    .head {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .big-text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .metaverse {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .reality-page {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .kid {
+        margin-right: 130px;
+    }
+
+    .app {
+        left: 0px;
+    }
+
+    body {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .insta {
+        white-space: nowrap;
+    }
+
+    .flex-cont1 {
+        gap: 50px
+    }
+
+    .three-comp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sub-text p {
+        font-family: "Josefin Sans";
+        font-size: 16px;
+        color: white;
+        position: relative;
+        left: 0%;
+    }
+
+    .options {
+        margin: 0px;
+    }
+
+    .flex-cont1 {
+        margin-left: 0px;
+    }
+
+    .icons {
+        margin-left: 100px;
+    }
+
+    .VR {
+        display: none;
+    }
+}
+
+.images3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.left-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
